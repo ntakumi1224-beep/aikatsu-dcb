@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.cjs",
-    "test": "node tests.cjs && node test-binder.cjs && node test-trade.cjs && node test-settings.cjs && node test-master.cjs",
+    "test": "node tests.cjs && node test-binder.cjs && node test-trade.cjs && node test-settings.cjs && node test-master.cjs && node test-camera.cjs",
     "build": "node build.cjs",
     "preview": "node server.cjs --public",
     "master": "python scripts/build_card_master.py"

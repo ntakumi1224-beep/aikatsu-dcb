@@ -1,7 +1,7 @@
 /* Read generated JSON before loading modules that depend on the Master. */
 (()=>{
  const assetRoot=new URL('.',document.currentScript.src);
- const scriptFiles = ["store.js", "matcher.js", "photos.js", "ui.js", "registration.js", "binder.js", "trade-model.js", "trade.js", "settings-model.js", "settings.js", "app.js"];
+ const scriptFiles = ["store.js", "matcher.js", "photos.js", "ui.js", "camera.js", "registration.js", "binder.js", "trade-model.js", "trade.js", "settings-model.js", "settings.js", "app.js"];
  const loadScript=file=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=new URL(file,assetRoot);s.onload=resolve;s.onerror=()=>reject(Error('Module unavailable'));document.head.append(s);});
  window.DCBReady=(async()=>{
   const names=['cards','coordinates','news'];const values=await Promise.all(names.map(async name=>{const r=await fetch(new URL('data/'+name+'.json',assetRoot));if(!r.ok)throw Error('Master unavailable');return r.json();}));

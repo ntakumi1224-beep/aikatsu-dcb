@@ -1,0 +1,23 @@
+/* Independent main color and white/dark theme. */
+:root{color-scheme: light;}
+:root[data-main-color="cute"]{--color-primary: var(--color-pink);}
+:root[data-main-color="cool"]{--color-primary: var(--color-blue);}
+:root[data-main-color="sexy"]{--color-primary: var(--color-purple);}
+:root[data-main-color="pop"]{--color-primary: var(--color-orange);}
+:root[data-theme="dark"]{color-scheme: dark; --color-background: #17191f; --color-surface: #22252d; --color-text: #f0f1f5; --color-text-muted: #a6adbb; --color-border: #3c414d; --color-disabled: #30343e; --color-disabled-text: #9299a7; --color-disabled-border: #444a57; --color-toast: #eef0f5; --color-toast-text: #24272f;}
+body{background: var(--color-background); color: var(--color-text);}
+input, select, textarea{color: var(--color-text); accent-color: var(--color-primary);}
+input::placeholder, textarea::placeholder{color: var(--color-muted); opacity: 1;}
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{outline-color: var(--color-primary);}
+.search input, .scan-number-row input{background: var(--color-surface); color: var(--color-text); outline-color: var(--color-primary);}
+.login-forgot{color: var(--color-primary);}
+.scan-success{background: var(--color-surface);}
+#toast{background: var(--color-toast); color: var(--color-toast-text);}
+:root[data-theme="dark"] :is(.login-shell, .opening, .opening-to-login){background: var(--color-background);}
+.display-control{border-top: 0px; border-right: 0px; border-left: 0px; border-image: none; border-bottom: 1px solid var(--color-border); min-width: 0px; padding: 0px 0px 18px; margin: 0px 0px 18px;}
+.display-control legend{padding: 0px; margin: 0px 0px 12px; font-size: 14px; line-height: 1.5; font-weight: 600;}
+.display-options{display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 8px; max-width: 400px;}
+.settings-control .display-option{display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 10px; border: var(--button-border-width) solid var(--color-border); border-radius: var(--button-radius); color: var(--color-text); font-size: 12px; cursor: pointer; background: var(--color-surface);}
+.display-option:has(input:checked){border-color: var(--color-primary); background: var(--color-primary-soft); font-weight: 600;}
+.display-option input{width: 16px; height: 16px; margin: 0px; flex-shrink: 0;}
+.display-swatch{width: 12px; height: 12px; border-radius: 50%; background: var(--swatch); flex-shrink: 0;}

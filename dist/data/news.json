@@ -1,0 +1,30 @@
+[
+  {
+    "id": "new-game-cards",
+    "date": "2026-10-07",
+    "acquisitionType": "game",
+    "title": "新弾カードが登場！",
+    "body": "新しい弾のカードがゲーム筐体から入手できる想定です。UI確認用の架空情報です。実際の登場日・排出期間は設定していません。"
+  },
+  {
+    "id": "store-distribution",
+    "date": "2026-10-06",
+    "acquisitionType": "distribution",
+    "title": "店頭で限定カードを配布",
+    "body": "店頭で限定カードを直接配布する想定です。UI確認用の架空情報です。実際の店舗・配布期間・配布条件は設定していません。"
+  },
+  {
+    "id": "magazine-card",
+    "date": "2026-10-05",
+    "acquisitionType": "supplement",
+    "title": "今月号にPRカードが付属",
+    "body": "雑誌にPRカードが付録として付く想定です。UI確認用の架空情報です。実際の商品名や発売情報ではありません。"
+  },
+  {
+    "id": "purchase-bonus",
+    "date": "2026-10-04",
+    "acquisitionType": "bonus",
+    "title": "対象商品購入で限定カードをプレゼント",
+    "body": "対象商品の購入条件を満たすと限定カードを入手できる想定です。UI確認用の架空情報です。実在の購入特典ではありません。"
+  }
+]

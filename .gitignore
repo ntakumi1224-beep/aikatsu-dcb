@@ -1,0 +1,14 @@
+﻿# Node
+node_modules/
+
+# UI audit / preview artifacts
+audit-*.png
+preview-*.png
+ui-audit-results.json
+hit-area-results.json
+css-cleanup-comparison.json
+css-cleanup-baseline.json
+
+# OS
+.DS_Store
+Thumbs.db

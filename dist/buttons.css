@@ -1,0 +1,19 @@
+/* Shared Primary / Secondary / Text buttons and icon/tile variants. Compact touch geometry lives in ui-controls.css. */
+:is(.btn-primary, .btn-secondary, .btn-text){display: inline-flex; align-items: center; justify-content: center; gap: var(--button-gap); min-height: var(--button-height); min-width: var(--button-height-compact); height: auto; padding: var(--space-2) var(--button-padding-x); font-size: var(--button-font-size); line-height: 1.5; font-weight: 600; letter-spacing: normal; border-radius: var(--button-radius); box-shadow: none; text-decoration: none; cursor: pointer; vertical-align: middle;}
+.btn-primary{background: var(--color-primary); color: var(--color-on-primary); border: 0px;}
+.btn-secondary{background: var(--color-surface); color: var(--color-primary); border: var(--button-border-width) solid var(--color-primary);}
+.btn-text{background: none; color: var(--color-primary); border: 0px; border-radius: 0px; padding-left: 0px; padding-right: 0px;}
+.btn-compact{min-height: var(--button-height-compact); font-size: var(--button-font-size-compact); padding: var(--space-1) var(--button-padding-x-compact);}
+.btn-text.btn-compact{padding-left: 0px; padding-right: 0px;}
+.btn-icon{width: var(--button-height); padding: 0px; flex-shrink: 0;}
+.btn-neutral{color: var(--color-text);}
+:is(.btn-primary, .btn-secondary, .btn-text):focus-visible{outline: 2px solid var(--color-primary); outline-offset: 3px;}
+:is(.btn-primary, .btn-secondary):disabled{background: var(--button-disabled-background); color: var(--button-disabled-text); border-color: var(--button-disabled-border); opacity: 1; cursor: default; filter: none;}
+.btn-text:disabled{color: var(--button-disabled-text); opacity: 1; cursor: default;}
+.home-binder-link{white-space: nowrap;}
+.login-forgot.btn-text{display: flex; width: max-content; max-width: 100%; margin-left: auto; margin-right: auto;}
+.scan-number-row .btn-primary{white-space: nowrap;}
+.stepper .btn-icon{font-size: 20px;}
+:is(.btn-primary, .btn-secondary, .btn-text) .button-icon{width: var(--action-icon-size); height: var(--action-icon-size); flex-shrink: 0;}
+.btn-tile{width: var(--button-tile-size); height: var(--button-tile-size); min-height: var(--button-tile-size); flex-direction: column;}
+.btn-tile .button-icon{width: 32px; height: 32px;}

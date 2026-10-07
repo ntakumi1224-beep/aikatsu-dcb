@@ -1,0 +1,1777 @@
+[
+  {
+    "file": "styles.css",
+    "removed": [
+      {
+        "context": "",
+        "selector": ".logo",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".logo-mark",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".logo strong",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".logo small",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".profile",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".avatar",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".eyebrow",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".welcome",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".welcome p",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".pill",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".dashboard",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".hero",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".hero::after",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".hero > *",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".hero h2",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".hero .big",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".big span",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".progress-label",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".progress",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".progress i",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".quick",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".stat",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".stat .symbol",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".stat:nth-child(2) .symbol",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".stat strong",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".stat small",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".stat.link",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".section-head",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".section-head button",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".badge",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".notice",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".notice span:first-child",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".notice p",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": "footer",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": "svg.icon",
+        "reason": "shared icon"
+      },
+      {
+        "context": "",
+        "selector": ".toolbar",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".toolbar",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search input",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search input",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search input",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search input",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search input",
+        "property": "outline-color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search input",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search svg",
+        "property": "top",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".search svg",
+        "property": "left",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".filter-toggle",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": "select",
+        "reason": "shared select"
+      },
+      {
+        "context": "",
+        "selector": ".tabs",
+        "property": "display",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs",
+        "property": "border-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs button",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs button",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs button",
+        "property": "border-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs .active",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tabs .active",
+        "property": "border-color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".count",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".coord-grid",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".coord",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".coord",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".coord",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".coord",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".coord-preview",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".coord-preview",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".back",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".tags span",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tags span",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".inventory",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".inventory",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".inventory",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".inventory",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".memo textarea",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".memo textarea",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".memo textarea",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".related-links",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".panel",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".panel",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".panel",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".panel",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".empty .symbol",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".auth",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth-card",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth .logo-mark",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth h1",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth .eyebrow",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth p",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth .panel",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth input",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".auth label",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".loader",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".loader::after",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": "@keyframes loading",
+        "reason": "unused loader"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".logo strong",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".logo small",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".logo-mark",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".profile-name",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".welcome",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".welcome .pill",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".dashboard",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".hero",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".hero .big",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".quick",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".stat",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".stat .symbol",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".stat strong",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".stat.link",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".recent-grid .card:nth-child(n+4)",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".section-head",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".section-head h2",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".toolbar",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".search input",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".notice",
+        "reason": "unused component"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".auth",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input",
+        "property": "box-shadow",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input::placeholder",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".login-field input::placeholder",
+        "property": "opacity",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-logo strong",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-logo strong",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-logo strong",
+        "property": "letter-spacing",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-section-heading h1",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-section-heading h1",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-news-meta",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".home-news-meta span",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".home-binder",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-binder",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-binder h2",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-view nav button",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-view nav button.active",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-view nav button.active",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".home-binder",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".register-entry",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".register-start",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".scan-header",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".scan-header h1",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".scan-header button",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes",
+        "property": "display",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button",
+        "property": "flex",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button[aria-pressed=\"true\"]",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button[aria-pressed=\"true\"]",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-modes button[aria-pressed=\"true\"]",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-camera-icon",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-number-row input",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-number-row input",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-number-row input",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-number-row input",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-note",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".scan-capture-actions",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".registration-view button:disabled",
+        "property": "cursor",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".scan-header",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "display",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "align-items",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "justify-content",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "border-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header h1",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header h1",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header h1",
+        "property": "line-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header h1",
+        "property": "margin",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header h1",
+        "property": "letter-spacing",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header h1",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-back",
+        "property": "display",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-back",
+        "property": "place-items",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-back",
+        "property": "width",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-back",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-back",
+        "property": "margin-left",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-back",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header-action",
+        "property": "margin-left",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".registration-view .page-header",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".filters, .inventory, .coord, .panel",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".filters, .inventory, .coord, .panel",
+        "property": "border-color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".filters, .inventory, .coord, .panel",
+        "property": "box-shadow",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".panel, .inventory, .coord",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".panel",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tags span",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".tags span",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".empty .symbol",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".eyebrow",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".register-entry",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".toolbar",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".page-header",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".page-header",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".page-header h1",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-news .home-section-heading h1",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".home-register",
+        "reason": "unused component"
+      },
+      {
+        "context": "",
+        "selector": ".home-trade h2",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-height: 680px)",
+        "selector": ".home-binder",
+        "property": "padding-top",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-height: 680px)",
+        "selector": ".home-binder",
+        "property": "padding-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs",
+        "property": "margin",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs",
+        "property": "display",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs",
+        "property": "grid-template-columns",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button",
+        "property": "white-space",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button",
+        "property": "line-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button.active",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-tabs button.active",
+        "property": "border-bottom-color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-page .toolbar",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-page .toolbar",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls label",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-controls select",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-count",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs",
+        "property": "display",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs",
+        "property": "grid-template-columns",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs",
+        "property": "margin",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button[aria-pressed=\"true\"]",
+        "property": "border-color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button[aria-pressed=\"true\"]",
+        "property": "box-shadow",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".type-tabs button[aria-pressed=\"true\"]",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".album-grid",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".album-grid",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".binder-tabs button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".binder-page .coord-grid",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".binder-tabs button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".binder-controls",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".binder-controls select",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".type-tabs",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 360px)",
+        "selector": ".type-tabs button",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-grid",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".card-view-toggle .icon",
+        "property": "width",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".card-view-toggle .icon",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-page .coord",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-page .coord-preview",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".binder-page .coord-preview",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": " (max-width: 700px)",
+        "selector": ".binder-grid",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-note",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-bottom-actions",
+        "property": "margin-top",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-search input",
+        "property": "padding-left",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-count-edit .btn-text",
+        "property": "min-width",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-match-heading",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-match-heading",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header .heading-icon",
+        "property": "width",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header .heading-icon",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".page-header .heading-icon",
+        "property": "flex-shrink",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-rarity-chips",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-page[data-trade-view=\"\"] .trade-note",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-page[data-trade-view=\"\"] .trade-section",
+        "property": "padding-top",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-page[data-trade-view=\"\"] .trade-heading",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-page[data-trade-view=\"\"] .trade-heading h2",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-page[data-trade-view=\"\"] .trade-rarity-chips",
+        "property": "padding-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".trade-page[data-trade-view=\"\"] .trade-rarity-chips",
+        "property": "margin-bottom",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row > .icon:last-child",
+        "property": "width",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row > .icon:last-child",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row > .icon:last-child",
+        "property": "flex-shrink",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row:disabled",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row:disabled",
+        "property": "cursor",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row:disabled > .icon",
+        "property": "color",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row:disabled > .icon",
+        "property": "width",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-row:disabled > .icon",
+        "property": "height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-field",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-field",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-field h2, .settings-control h2, .settings-control-title",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-field h2, .settings-control h2, .settings-control-title",
+        "property": "font-weight",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-field p",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-bottom-actions",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-bottom-actions",
+        "property": "margin-top",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-control",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-control select",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-control select",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-control select",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-control p",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-control p.settings-help",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-data",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form",
+        "property": "gap",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form input",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form input",
+        "property": "padding",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form input",
+        "property": "border",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form input",
+        "property": "border-radius",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form input",
+        "property": "font",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".settings-form input",
+        "property": "background",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".card-retain-label select",
+        "property": "min-height",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".card-retain-label select",
+        "property": "font-size",
+        "reason": "shared definition"
+      },
+      {
+        "context": "",
+        "selector": ".card-retain-label select",
+        "property": "background",
+        "reason": "shared definition"
+      }
+    ]
+  },
+  {
+    "file": "theme.css",
+    "removed": [
+      {
+        "context": "",
+        "selector": ".badge",
+        "property": "color",
+        "reason": "shared definition"
+      }
+    ]
+  }
+]

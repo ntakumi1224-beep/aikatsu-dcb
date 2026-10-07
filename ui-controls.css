@@ -1,0 +1,102 @@
+/* Shared V0.1 controls; screen layout remains in styles.css. Compact paint stays 32px. No hit-area overlap. */
+.page-header, .registration-view .page-header{height: var(--header-height); padding: 0 max(var(--page-gutter),calc((100vw - 1012px)/2)); gap: var(--space-2); border-bottom: 1px solid var(--color-border);}
+.app-main, .home-main, .scan-main{padding-left: var(--page-gutter); padding-right: var(--page-gutter);}
+.home-section-heading h1, .home-news .home-section-heading h1, .home-binder h2, .home-trade h2, .trade-heading h2, .trade-page[data-trade-view=""] .trade-heading h2, .trade-match-heading, .settings-field h2, .settings-control h2, .settings-control-title, .display-control legend{font-size: var(--font-section); font-weight: var(--weight-control);}
+.settings-field p, .settings-control p, .settings-data{font-size: var(--font-body);}
+.settings-control p.settings-help, .trade-note, .trade-page[data-trade-view=""] .trade-note, .scan-note, .binder-count, .binder-controls label{font-size: var(--font-help);}
+.settings-row:disabled{color: var(--color-disabled-text); opacity: 1; cursor: default;}
+input.ui-input, select.ui-select{min-height: var(--input-height); height: var(--input-height); border: var(--input-border-width) solid var(--color-border); border-radius: var(--input-radius); padding: var(--space-2) var(--input-padding-x); font-size: var(--font-control); line-height: 1.5; background: var(--color-surface); color: var(--color-text); box-shadow: none;}
+input.ui-input:disabled, select.ui-select:disabled{background: var(--color-disabled); color: var(--color-disabled-text); border-color: var(--color-disabled-border); opacity: 1; cursor: default;}
+input.ui-input::placeholder{color: var(--color-muted); opacity: 1;}
+input.ui-input:focus-visible, select.ui-select:focus-visible, .memo textarea:focus-visible{outline: 2px solid var(--color-primary); outline-offset: 2px;}
+.search:not(.trade-search) input.ui-input, .login-field input.ui-input{padding-left: 40px;}
+.search svg{top: 50%; transform: translateY(-50%); left: var(--space-3); width: var(--action-icon-size); height: var(--action-icon-size);}
+.login-field input.ui-input{height: 48px;}
+@media (max-width: 360px){
+.login-field input.ui-input{height: var(--input-height);}
+}
+.memo textarea{padding: var(--space-3); border-radius: var(--input-radius); border-width: var(--input-border-width); font-size: var(--font-control);}
+:is(.btn-primary, .btn-secondary, .btn-text) .icon, .page-header .heading-icon, .settings-row > .icon{width: var(--action-icon-size); height: var(--action-icon-size); flex-shrink: 0;}
+.btn-tile .button-icon{width: 32px; height: 32px;}
+nav button.active{color: var(--color-primary); background: var(--color-primary-soft);}
+.home-view nav button{font-size: var(--font-card-meta);}
+.binder-tabs button, .scan-modes button{min-height: var(--tab-height); font-size: var(--tab-font-size); font-weight: var(--weight-control); padding: var(--space-2) var(--space-1); color: var(--color-muted);}
+.binder-tabs button.active, .scan-modes button[aria-pressed="true"]{color: var(--color-primary);}
+@media (max-width: 360px){
+.binder-tabs button{font-size: var(--font-card-meta);}
+}
+.scan-modes button:disabled{color: var(--color-disabled-text); cursor: default; opacity: 1;}
+.rarity-chip{min-height: var(--chip-height); border-radius: var(--chip-radius); font-size: var(--chip-font-size);}
+.rarity-chip[aria-pressed="true"]{box-shadow: inset 0 -2px var(--color-primary);}
+.trade-rarity-chips{gap: var(--space-2);}
+.toolbar, .binder-page .toolbar{gap: var(--space-2); margin-bottom: var(--space-3);}
+.binder-controls{gap: var(--space-2);}
+.binder-grid, .album-grid{gap: var(--space-2);}
+.coord-grid{gap: var(--space-4);}
+.binder-page .coord-grid{gap: var(--space-3);}
+.coord-preview, .binder-page .coord-preview{gap: var(--space-2); margin-bottom: var(--space-2);}
+.panel, .inventory, .coord{border: 1px solid var(--color-border); border-radius: var(--panel-radius); box-shadow: none; padding: var(--panel-padding); background: var(--color-surface);}
+.binder-page .coord{padding: var(--space-3);}
+.home-binder{border-radius: var(--panel-radius); padding: var(--space-4);}
+.settings-field, .settings-control{padding-top: var(--space-4); padding-bottom: var(--space-4);}
+.display-control{padding-top: 0px; margin-bottom: var(--space-4);}
+.settings-field, .settings-form, .display-options{gap: var(--space-2);}
+.settings-form{gap: var(--space-4);}
+.settings-bottom-actions, .trade-bottom-actions, .trade-section-actions, .scan-capture-actions, .related-links{gap: var(--space-2);}
+.settings-bottom-actions, .trade-bottom-actions{margin-top: var(--space-4);}
+.display-option{border-radius: var(--button-radius);}
+@media (max-width: 360px){
+.home-binder{padding: var(--space-3);}
+}
+.trade-count-edit .btn-text{min-width: var(--button-height-compact);}
+.scan-samples .btn-text{min-width: var(--button-height-compact);}
+.scan-samples{gap: 12px;}
+.trade-page[data-trade-view=""] .trade-heading{margin-bottom: 12px;}
+.trade-page[data-trade-view=""] .trade-section{padding-top: 8px;}
+.trade-page[data-trade-view=""] .trade-rarity-chips{padding-block: 6px; margin-top: -6px; margin-bottom: 0px;}
+.page-header{display: flex; align-items: center; justify-content: flex-start; background: var(--color-background);}
+.page-header h1{font-size: var(--font-page-title); font-weight: var(--weight-title); line-height: 1.4; margin: 0px; letter-spacing: 0px; color: var(--color-text);}
+.page-back{min-height: var(--button-height); width: var(--button-height); margin-left: calc(-1 * var(--space-2)); display: flex; place-items: center; color: var(--color-text);}
+.page-header-action{margin-left: auto;}
+select.ui-select{display: block; width: 100%; margin-top: 5px;}
+svg.icon{width: var(--icon-size); height: var(--icon-size); stroke-width: var(--icon-stroke); fill: none; stroke: currentcolor; stroke-linecap: round; stroke-linejoin: round;}
+.binder-tabs{display: grid; grid-template-columns: 1fr 1.5fr 1.2fr; gap: 0px; margin: 0 0 var(--space-3); border-bottom: 1px solid var(--color-border);}
+.binder-tabs button{white-space: nowrap; line-height: 1.4; border-bottom: var(--tab-underline-width) solid transparent;}
+.binder-tabs button.active{border-bottom-color: var(--color-primary);}
+.type-tabs{gap: var(--space-2); margin-bottom: var(--space-3); display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 0px;}
+.type-tabs button{min-height: var(--chip-height); height: var(--chip-height); border: var(--button-border-width) solid var(--color-border); border-radius: var(--chip-radius); font-size: var(--chip-font-size); padding: var(--space-1) var(--space-2); font-weight: var(--weight-control); background: var(--color-surface); color: var(--type-color);}
+.type-tabs button[aria-pressed="true"]{background: color-mix(in srgb,var(--type-color) 9%,var(--color-background)); border-color: var(--type-color); box-shadow: inset 0 -2px var(--type-color); font-weight: 700;}
+.scan-modes{gap: var(--space-1); padding: var(--space-1); border-radius: var(--panel-radius); display: flex; background: var(--color-primary-soft);}
+.scan-modes button{flex: 1 1 0%; border-radius: 9px;}
+.scan-modes button[aria-pressed="true"]{background: var(--color-surface); font-weight: 700;}
+.tags span{color: var(--color-primary); background: var(--color-primary-soft);}
+.filters{background: var(--color-background);}
+.settings-row:disabled > .icon{color: inherit; width: 17px; height: 17px;}
+.settings-row > .icon:last-child{width: 17px; height: 17px;}
+.scan-camera-empty .scan-camera-icon{width: 32px; height: 32px; flex-shrink: 0; font-size: 27px; line-height: 1;}
+.card-retain-label select.ui-select{width: 88px; margin: 0px;}
+.eyebrow{color: var(--color-primary);}
+.home-header{padding-left: var(--page-gutter); padding-right: var(--page-gutter); display: flex; align-items: center; gap: 18px;}
+nav{gap: var(--space-1); padding-top: var(--space-2); padding-bottom: calc(var(--space-2) + env(safe-area-inset-bottom)); position: fixed; z-index: 10; bottom: 0px; left: 0px; right: 0px; background: var(--color-background); border-top: 1px solid var(--color-border); display: flex; justify-content: space-around; padding-left: max(12px, -340px + 50vw); padding-right: max(12px, -340px + 50vw);}
+nav button{font-size: var(--font-card-meta); gap: var(--space-1); min-height: 48px; line-height: 1.5; justify-content: center; white-space: nowrap; padding: var(--space-1) var(--space-1); color: var(--color-muted); display: flex; align-items: center; flex-direction: column; min-width: 56px; border-radius: 12px;}
+.home-view nav{background: var(--color-surface); border-color: var(--color-border-pink);}
+@media (max-width: 700px){
+nav button{min-width: 52px;}
+}
+
+/* Compact controls keep a 32px painted face inside a real 44px touch box.
+   Negative margins preserve the existing layout; row containers reserve safe space. */
+.btn-compact, .type-tabs button{position:relative; isolation:isolate; height:44px; min-height:44px; margin-block:-6px;}
+.btn-compact, .type-tabs button, .type-tabs button[aria-pressed], .trade-page .rarity-chip[aria-pressed]{background:transparent; border-color:transparent; box-shadow:none;}
+.btn-compact::before, .type-tabs button::before{content:""; position:absolute; z-index:-1; pointer-events:none; inset:5px -1px; border-radius:var(--button-radius); border:var(--button-border-width) solid var(--color-primary); background:var(--color-surface);}
+.btn-primary.btn-compact::before{inset:6px 0; border:0; background:var(--color-primary);}
+.btn-text.btn-compact::before{content:none;}
+.type-tabs button::before{border-color:var(--color-border);}
+.type-tabs button[aria-pressed="true"]::before{background:color-mix(in srgb,var(--type-color) 9%,var(--color-background)); border-color:var(--type-color); box-shadow:inset 0 -2px var(--type-color);}
+.trade-page .rarity-chip[aria-pressed="true"]::before{background:var(--color-primary-soft); box-shadow:inset 0 -2px var(--color-primary);}
+.btn-compact:disabled{background:transparent; border-color:transparent;}
+.btn-compact:disabled::before{background:var(--button-disabled-background); border-color:var(--button-disabled-border);}
+.trade-card > .btn-text, .trade-count-edit .btn-text, .scan-samples .btn-text{min-width:44px; margin-inline:-6px;}
+
+/* Clear the compact header button touch box before the first news row. */
+.home-news .home-section-heading{margin-bottom:6px;}

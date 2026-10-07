@@ -1,0 +1,13 @@
+card_date/
+test-fixtures/
+scripts/
+verify-*.cjs
+test-*.cjs
+tests.cjs
+server.cjs
+*.md
+/*.png
+/*-results.json
+/css-*.json
+.env
+.env.*

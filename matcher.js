@@ -9,10 +9,10 @@ window.DCBMatcher=(()=>{
   const literal=master.filter(c=>[c.cardNumber,...(c.scanNumbers||[])].filter(Boolean).includes(String(text).trim()));
   const exact=literal.length?literal:master.filter(c=>numbers(c).includes(read));
   if(exact.length>3)return{kind:'tooMany',read,candidates:[]};
-  if(exact.length)return{kind:exact.length===1?'exact':'ambiguous',level:literal.length?'literal':'normalized',read,candidates:exact};
+  if(exact.length)return{kind:exact.length===1?'exact':'ambiguous',level:literal.length?'literal':'normalized',read,candidates:exact,voteCandidates:exact};
   const fixed=correct(read);
   const scored=master.map(c=>({card:c,score:Math.min(...numbers(c).map(n=>correct(n)===fixed||correct(n).replace(/-/g,'')===fixed.replace(/-/g,'')?0:distance(fixed,correct(n))))})).filter(x=>x.score<=1).sort((a,b)=>a.score-b.score);
-  return{kind:scored.length?'suggestions':'missing',level:scored[0]?.score===0?'corrected':'similar',read,candidates:scored.slice(0,3).map(x=>x.card)};
+  return{kind:scored.length?'suggestions':'missing',level:scored[0]?.score===0?'corrected':'similar',read,candidates:scored.slice(0,3).map(x=>x.card),voteCandidates:scored.filter(x=>x.score===scored[0]?.score).slice(0,3).map(x=>x.card)};
  }
  return{normalize,match};
 })();

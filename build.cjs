@@ -1,4 +1,4 @@
-/* Dependency-free static publishing build. Only explicitly referenced app assets ship. */
+/* Static publishing build with self-hosted pinned OCR assets. Only explicitly referenced app assets ship. */
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=__dirname,out=path.join(root,'dist');
 const production=process.env.VERCEL_ENV==='production';
@@ -21,6 +21,12 @@ const appHTML=fs.readFileSync(path.join(root,'index.html'),'utf8');
 write('app/index.html',appHTML.replace('<head>','<head><base href="/">'+'<link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/icons/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">'));
 const assets=[...new Set([...JSON.parse(fs.readFileSync(path.join(root,'boot.js'),'utf8').match(/const scriptFiles = (\[[^\]]+\])/)[1]),...[...appHTML.matchAll(/(?:src|href)="([^"/]+\.(?:js|css))"/g)].map(m=>m[1])])];
 for(const asset of assets){if(path.basename(asset)!==asset)throw Error('Unsupported asset '+asset);fs.copyFileSync(path.join(root,asset),path.join(out,asset));}
+// Self-host pinned browser OCR assets; camera crops never leave the device.
+const ocrOut=path.join(out,'vendor','ocr');fs.mkdirSync(path.join(ocrOut,'core'),{recursive:true});fs.mkdirSync(path.join(ocrOut,'lang'));
+for(const name of ['tesseract.min.js','worker.min.js'])fs.copyFileSync(path.join(root,'node_modules','tesseract.js','dist',name),path.join(ocrOut,name));
+const coreDir=path.join(root,'node_modules','tesseract.js-core');for(const name of fs.readdirSync(coreDir).filter(n=>/\.wasm(?:\.js)?$/.test(n)))fs.copyFileSync(path.join(coreDir,name),path.join(ocrOut,'core',name));
+fs.copyFileSync(path.join(root,'node_modules','@tesseract.js-data','eng','4.0.0_best_int','eng.traineddata.gz'),path.join(ocrOut,'lang','eng.traineddata.gz'));
+for(const [pkg,name] of [['tesseract.js','TESSERACT-LICENSE'],['tesseract.js-core','CORE-LICENSE']])fs.copyFileSync(path.join(root,'node_modules',pkg,pkg==='tesseract.js'?'LICENSE.md':'LICENSE'),path.join(ocrOut,name+'.txt'));
 fs.mkdirSync(path.join(out,'data'));for(const name of ['cards','coordinates','news'])fs.copyFileSync(path.join(root,'data',name+'.json'),path.join(out,'data',name+'.json'));
 const publicNews=JSON.parse(fs.readFileSync(path.join(root,'data/news.json'),'utf8'));
 const categories={game:'ゲーム',distribution:'配布',supplement:'付録',bonus:'特典'};

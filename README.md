@@ -136,3 +136,7 @@ UI監査結果と維持した例外は`UI-AUDIT.md`に記載しています。`u
 ## 実カードMaster
 
 一次データはcard_date/aikatsu_dcb_master_verified_2026-10-07.xlsxの全カードシートです。`npm run master`でdata/cards.jsonとdata/coordinates.jsonへ変換します。Excelをブラウザで読み込まず、他の調査シートは重複登録しません。公開ビルドの前に変換を実行してください。移行件数・列・仕様・マッピング・テスト結果は [MASTER-MIGRATION.md](MASTER-MIGRATION.md) に記載しています。
+
+## 実番号OCR（2026-10-09）
+
+初回は `npm ci`。その後 `npm start`、公開確認は `npm run build` → `npm run preview`。カード登録の「カメラを起動」→番号を枠へ→「読み取り開始」でTesseract.jsがガイド内だけを認識します。手入力は直接Masterと照合し、疑似OCRを経由しません。詳しくは [OCR-IMPLEMENTATION.md](OCR-IMPLEMENTATION.md)。

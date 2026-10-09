@@ -223,7 +223,6 @@ body:has(.registration-view){background: var(--color-surface);}
 #scan-number-form small{color: var(--color-muted); font-size: 10px; font-weight: 400;}
 .scan-number-row{display: flex; gap: 8px; margin-top: 8px;}
 .scan-number-row input{width: 0px; flex: 1 1 0%; min-width: 0px;}
-.scan-samples{display: flex; flex-wrap: wrap; gap: 6px; margin-top: 11px;}
 .scan-message{font-size: 12px; line-height: 1.7; color: var(--color-primary); margin: 14px 0px; background: var(--color-primary-soft); border-radius: 9px; padding: 10px 12px;}
 .scan-note{line-height: 1.7; color: var(--color-muted); margin: 12px 0px;}
 .scan-session{display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--color-border-pink); font-size: 12px;}
@@ -462,3 +461,5 @@ body:has(.registration-view){background: var(--color-surface);}
 }
 /* Keep the existing 44px icon targets inside the viewport at its narrowest widths. */
 @media(max-width:346px){.binder-count:has(.binder-merge-toggle){margin-inline: calc((100vw - 348px) / 2);}}
+
+.scan-ocr-actions{display:flex;align-items:center;gap:8px;margin:12px 0;flex-wrap:wrap;}

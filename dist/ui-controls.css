@@ -49,8 +49,6 @@ nav button.active{color: var(--color-primary); background: var(--color-primary-s
 .home-binder{padding: var(--space-3);}
 }
 .trade-count-edit .btn-text{min-width: var(--button-height-compact);}
-.scan-samples .btn-text{min-width: var(--button-height-compact);}
-.scan-samples{gap: 12px;}
 .trade-page[data-trade-view=""] .trade-heading{margin-bottom: 12px;}
 .trade-page[data-trade-view=""] .trade-section{padding-top: 8px;}
 .trade-page[data-trade-view=""] .trade-rarity-chips{padding-block: 6px; margin-top: -6px; margin-bottom: 0px;}
@@ -96,7 +94,7 @@ nav button{min-width: 52px;}
 .trade-page .rarity-chip[aria-pressed="true"]::before{background:var(--color-primary-soft); box-shadow:inset 0 -2px var(--color-primary);}
 .btn-compact:disabled{background:transparent; border-color:transparent;}
 .btn-compact:disabled::before{background:var(--button-disabled-background); border-color:var(--button-disabled-border);}
-.trade-card > .btn-text, .trade-count-edit .btn-text, .scan-samples .btn-text{min-width:44px; margin-inline:-6px;}
+.trade-card > .btn-text, .trade-count-edit .btn-text{min-width:44px; margin-inline:-6px;}
 
 /* Clear the compact header button touch box before the first news row. */
 .home-news .home-section-heading{margin-bottom:6px;}

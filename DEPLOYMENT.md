@@ -2,7 +2,7 @@
 
 ## 1. 現在の構成
 
-HTML／CSS／JavaScriptの静的アプリ。外部依存、フレームワーク、バックエンドはありません。Node.js標準機能で配信・ビルドします。開発時はnpm startで4173番、公開プレビューはnpm run previewで4174番を使用します。
+HTML／CSS／JavaScriptの静的アプリ。フレームワークとバックエンドはありません。実番号OCRには固定版Tesseract.jsと英数字認識データを使用し、同一サイトから配信します。初回はnpm ciで依存を導入してください。Node.js標準機能で配信・ビルドします。開発時はnpm startで4173番、公開プレビューはnpm run previewで4174番を使用します。
 
 既存画面はハッシュルーティングを継続。公開版は `/app/#binder` 等です。localStorageの所持情報・設定・表示形式・トレード条件と、IndexedDB `aikatsu-dcb-photos-v01` の写真保存を維持しています。同じoriginのパス変更では保存先は変わりません。localhost、別ポート、別ドメイン、HTTP→HTTPSは別originになり、データは自動移行されません。バックアップ／復元は未実装です。
 
@@ -111,3 +111,5 @@ npm test、verify-public、公開版に対する11本の画面検証・監査が
 ## 実Master移行後
 
 カードMasterをverified Excel由来の139件へ置換しました。カードJSONを読み込むboot.jsと再変換スクリプトを追加。Excel更新→npm run master→npm run buildの順で更新します。現在の件数・変換方法・テスト結果はMASTER-MIGRATION.mdを参照してください。
+
+2026-10-09：実番号OCRを追加。依存・自己配信・実機確認はOCR-IMPLEMENTATION.mdを参照。
